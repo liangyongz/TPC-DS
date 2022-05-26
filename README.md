@@ -4,7 +4,7 @@
 
 1. 使用TPC-DS创建MySQL表，使用TPC-DS构造数据，导入数据到MySQL表中
 2. 集成MySQL表到Spark
-3. 执行querys目录下的100条SQL
+3. 执行querys目录下的99条SQL
 
 ## 目录说明
 
@@ -107,7 +107,7 @@ LOAD DATA LOCAL INFILE '/tmp/tpcds_data_01/web_site.dat' INTO TABLE tpcds_01.web
 
 ## querys
 
-SQL目录，共100条SQL
+SQL目录，共99条SQL
 
 
 
