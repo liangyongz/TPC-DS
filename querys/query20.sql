@@ -7,7 +7,7 @@ select  i_item_id
        ,sum(cs_ext_sales_price) as itemrevenue 
        ,sum(cs_ext_sales_price)*100/sum(sum(cs_ext_sales_price)) over
            (partition by i_class) as revenueratio
- from	catalog_sales
+ from catalog_sales
      ,item 
      ,date_dim
  where cs_item_sk = i_item_sk 
